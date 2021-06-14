@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Link Shortener</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
+<style>
+   body {
+        background-color:beige;
+        color: #222;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    button {
+        border: 1px solid blue;
+    }
+    
+    #go {
+        border: 1px solid #222;
+    }
+
+</style>
+ 
+</head>
+<body>
+    <header>
+        <h1>Bitly.com Link Shortener</h1>
+      </header>
+      
+      <main>
+        <input type="url" id="address" placeholder="Link to be shortened">
+        <br><br>
+        <input type="button" id="go" value="Go">
+        <br>
+      <span id="displays">  
+        <div id="displayShortened"></div>
+        <div id="displayOriginal"></div>
+      </span>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
